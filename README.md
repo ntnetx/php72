@@ -1,4 +1,4 @@
-# Apache + PHP 7
+# DOCKER + Apache + PHP 7
 
 # Criar e levantar os containers
 docker-compose up -d
