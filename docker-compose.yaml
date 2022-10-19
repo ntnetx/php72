@@ -5,8 +5,10 @@ services:
     image: webdevops/php-apache:alpine-php7
     ports:
       - "4500:80"
+    
+    
     volumes:
       - ./antigo:/app
-      - ./php.ini:/etc/apache2/conf.d/custom.ini
+      - ./antigo/custom.ini:/opt/docker/etc/php/php.ini
 
       
